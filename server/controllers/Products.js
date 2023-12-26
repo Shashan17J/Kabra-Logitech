@@ -64,8 +64,7 @@ exports.addProduct = async (req, res) => {
   }
 };
 
-// getAllCourses handler
-
+// getAllProducts handler
 exports.listAllProducts = async (req, res) => {
   try {
     const allProducts = await Product.find(
